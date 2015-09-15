@@ -1,0 +1,1 @@
+print("[From File] Hello Lua " .. _VERSION)
