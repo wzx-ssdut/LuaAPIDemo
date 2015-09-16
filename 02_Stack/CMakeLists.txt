@@ -1,6 +1,8 @@
 set(APPNAME 02_Stack)
 
 set(SOURCE
+	../common/util.hpp
+	../common/util.cpp
 	main.cpp
 )
 

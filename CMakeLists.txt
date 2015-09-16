@@ -12,3 +12,5 @@ link_directories(
 
 add_subdirectory(01_Hello)
 add_subdirectory(02_Stack)
+add_subdirectory(03_GlobalVariable)
+add_subdirectory(04_Function)
