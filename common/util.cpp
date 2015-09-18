@@ -4,8 +4,7 @@
 
 void DumpStack(lua_State* L, const char* message) {
 	int top = lua_gettop(L);
-	std::cout << "[Dump from " << __FILE__ ":" << __LINE__ << "]\n"
-		<< message << '\n'
+	std::cout << "Dump from [" << __FILE__ ":" << __LINE__ << "] "
 		<< " Stack Size: " << top << std::endl;
 	for (int i = 1; i <= top; ++i) {
 		int type = lua_type(L, i);
