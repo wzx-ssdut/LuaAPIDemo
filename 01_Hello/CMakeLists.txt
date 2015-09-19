@@ -9,7 +9,7 @@ add_executable(${APPNAME}
 	${SOURCE}
 )
 target_link_libraries(${APPNAME}
-	liblua
+	lua
 )
 
 add_custom_command(TARGET ${APPNAME}
